@@ -6,6 +6,7 @@
 **Chain:** Rootstock Testnet (Chain ID 31)  
 **Built For:** (A)I BUIDL Lab on Rootstock  
 **SpacePuzzleGame deployed to:** 0x61C34f6C430DFD6Bcc14D5efCc18C7D799BEA5c6
+
 **Live Demo**: [https://space-puzzle-game-on-rootstock.vercel.app/](https://space-puzzle-game-on-rootstock.vercel.app/)
 
 ---
@@ -83,8 +84,6 @@ cd space-puzzle-game-on-rootstock
 npm install
 ```
 
-````
-
 ### Environment
 
 Create `.env.local`:
@@ -139,6 +138,8 @@ If you want to deploy your own instance of the game's smart contract:
 
 6. Update the `.env.local` file in the project root with your new contract address.
 
+---
+
 ## 🎮 How to Play
 
 1. **Connect your wallet** using the "Connect Wallet" button.
@@ -149,6 +150,8 @@ If you want to deploy your own instance of the game's smart contract:
 6. **Save your progress** by quitting the game and confirming the save.
 7. Visit the **Dashboard** to view your stats, badges, and claim daily rewards.
 8. Check the **Achievements** page to see your earned and unearned badges.
+
+---
 
 ## 📚 Game Controls
 
@@ -167,6 +170,8 @@ If you want to deploy your own instance of the game's smart contract:
 - **R button**: Restart level
 - **X button**: Quit game
 
+---
+
 ## 📊 Scoring System
 
 - Completing a level: Points based on level number and difficulty multiplier
@@ -174,6 +179,7 @@ If you want to deploy your own instance of the game's smart contract:
 - Your high score is stored on the blockchain
 - Top 10 global scores appear on the leaderboard
 
+---
 
 ## 📱 Mobile Compatibility
 
@@ -183,7 +189,6 @@ Space Puzzle is fully responsive and playable on mobile devices with:
 - Swipe navigation
 - On-screen buttons
 - Responsive UI that adapts to screen size
-
 
 ---
 
@@ -201,5 +206,3 @@ Space Puzzle is fully responsive and playable on mobile devices with:
 ## 📝 License
 
 MIT License
-
-````
