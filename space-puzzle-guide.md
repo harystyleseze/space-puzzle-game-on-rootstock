@@ -4,7 +4,7 @@
 
 ## 🚀 Overview
 
-Space Puzzle is an engaging blockchain-based puzzle game build on Core Blockchain that challenges players' logic and problem-solving skills in a cosmic adventure. Navigate through increasingly difficult levels, collect keys, unlock barriers, and reach portals while avoiding obstacles. Your progress, achievements, and rewards are securely stored on the Core blockchain, creating a truly decentralized gaming experience.
+Space Puzzle is an engaging blockchain-based puzzle game build on Rootstock Blockchain that challenges players' logic and problem-solving skills in a cosmic adventure. Navigate through increasingly difficult levels, collect keys, unlock barriers, and reach portals while avoiding obstacles. Your progress, achievements, and rewards are securely stored on the blockchain, creating a truly decentralized gaming experience.
 
 ## 🌟 Features
 
@@ -22,9 +22,9 @@ Space Puzzle is an engaging blockchain-based puzzle game build on Core Blockchai
   - 🌈 **Teleporters**: Instantly transport your spaceship to paired locations.
   - ⚠️ **Bokoharams**: Dangerous entities that subtract 5 keys upon collision.
 
-### Blockchain Integration -- Everything on Core Blockchain
+### Blockchain Integration -- Everything on Rootstock Blockchain
 
-- **Persistent Progress**: Game progress is stored on the Core blockchain.
+- **Persistent Progress**: Game progress is stored on the Rootstock blockchain.
 - **Achievements as NFTs**: Earn NFT badges for reaching specific milestones.
 - **Daily Rewards**: Claim points daily through blockchain transactions.
 - **Resource Management**: Convert in-game keys to points through smart contracts.
@@ -54,7 +54,7 @@ Space Puzzle is an engaging blockchain-based puzzle game build on Core Blockchai
 
 ## 🔍 What Makes Space Puzzle Unique
 
-1. **Blockchain-Powered Progress**: Unlike traditional puzzle games where progress is stored locally, Space Puzzle leverages the Core blockchain to ensure your achievements and rewards are permanently recorded and truly owned by you.
+1. **Blockchain-Powered Progress**: Unlike traditional puzzle games where progress is stored locally, Space Puzzle leverages the Rootstock blockchain to ensure your achievements and rewards are permanently recorded and truly owned by you.
 
 2. **NFT Integration**: Earned badges are minted as NFTs, providing tangible value and ownership of your accomplishments.
 
@@ -62,7 +62,7 @@ Space Puzzle is an engaging blockchain-based puzzle game build on Core Blockchai
 
 4. **Progressive Challenge System**: The difficulty scales dynamically based on your level, introducing new elements and increasing complexity at a pace designed to challenge without frustrating.
 
-5. **Cross-Device Experience**: Your game state follows you across devices thanks to Core blockchain persistence, allowing for a seamless gaming experience.
+5. **Cross-Device Experience**: Your game state follows you across devices thanks to Rootstock blockchain persistence, allowing for a seamless gaming experience.
 
 ## 🧩 Puzzle Gaming Excellence
 
@@ -86,7 +86,7 @@ The game keeps players coming back through:
 
 ## 🔗 Blockchain Technology Integration
 
-Space Puzzle leverages Core blockchain technology in several innovative ways:
+Space Puzzle leverages Rootstock blockchain technology in several innovative ways:
 
 ### Smart Contract Functionality
 
@@ -98,9 +98,7 @@ Space Puzzle leverages Core blockchain technology in several innovative ways:
 
 ### Network Support
 
-- **Core Testnet**: For development and testing (Chain ID 1114)
-- **Core Mainnet**: For production gameplay (Chain ID 1116)
-- **Testnet Faucet**: Request test tokens directly from the application's UI when connected to testnet.
+- ** Rootstock Testnet**: For development and testing (Chain ID 31)
 
 ### Web3 Integration
 
@@ -115,19 +113,13 @@ Before running Space Puzzle, ensure you have:
 1. **Node.js** (v16 or newer)
 2. **npm** or **yarn** package manager
 3. **MetaMask** or another Web3 wallet extension
-4. **Core Network Configuration** in your wallet:
-   - **Core Testnet**:
-     - Network Name: Core Blockchain Testnet
-     - RPC URL: https://rpc.test.btcs.network/
-     - Chain ID: 1114
-     - Currency Symbol: TCORE
-     - Block Explorer: https://scan.test.btcs.network/
-   - **Core Mainnet**:
-     - Network Name: Core Blockchain Mainnet
-     - RPC URL: https://rpc.coredao.org/
-     - Chain ID: 1116
-     - Currency Symbol: CORE
-     - Block Explorer: https://scan.coredao.org/
+4. **Rootstock Network Configuration** in your wallet:
+   - **Rootstock Testnet**:
+     - Network Name: Rootstock Testnet
+     - RPC URL: https://public-node.testnet.rsk.co
+     - Chain ID: 31
+     - Currency Symbol: tRBTC
+     - Block Explorer: https://explorer.testnet.rootstock.io
 
 ## 🚀 Running Locally
 
@@ -138,8 +130,8 @@ Follow these steps to run Space Puzzle locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/harystyleseze/space-puzzle-game.git
-   cd space-puzzle-game
+   git clone https://github.com/harystyleseze/space-puzzle-game-on-rootstock
+   cd space-puzzle-game-on-rootstock
    ```
 
 2. Install dependencies:
@@ -187,8 +179,7 @@ If you want to deploy your own instance of the game's smart contract:
 3. Create a `.env` file with your private key:
 
    ```
-   PRIVATE_KEY=yourPrivateKeyWithoutOxPrefix
-   CORE_EXPLORER_API_KEY=yourApiKeyIfAvailable
+   ROOTSTOCK_TESTNET_PRIVATE_KEY="YOUR-PRIVATE-KEY"
    ```
 
 4. Compile the contract:
@@ -197,10 +188,10 @@ If you want to deploy your own instance of the game's smart contract:
    npx hardhat compile
    ```
 
-5. Deploy to Core Testnet:
+5. Deploy to Rootstock Testnet:
 
    ```bash
-   npx hardhat run scripts/deploy.js --network core_testnet
+   npx hardhat run scripts/deploy.js --network rskTestnet
    ```
 
 6. Update the `.env.local` file in the project root with your new contract address.
@@ -254,14 +245,3 @@ Space Puzzle is fully responsive and playable on mobile devices with:
 - Swipe navigation
 - On-screen buttons
 - Responsive UI that adapts to screen size
-
-## 🙏 Acknowledgements
-
-- Core Blockchain for providing the infrastructure
-- OpenZeppelin for secure contract libraries
-- Next.js for the frontend framework
-- All contributors and players of Space Puzzle
-
----
-
-**Space Puzzle Game** — Explore the cosmos, solve puzzles, own your achievements.
